@@ -1,0 +1,30 @@
+# netlify.toml — Configurazione deploy
+# Carica questo file nella root del progetto insieme a index.html e articles.js
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/articles.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Redirect www to non-www
+[[redirects]]
+  from = "https://www.theirenemartellato.it/*"
+  to = "https://theirenemartellato.it/:splat"
+  status = 301
+  force = true

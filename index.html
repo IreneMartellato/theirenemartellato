@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags IT -->
+  <title>Irene Martellato — Business Connector. Trade Show Intelligence.</title>
+  <meta name="description" content="Ripristino e creo flussi di business. Connetto prodotti con le persone giuste, aziende con i partner giusti, mercati con le opportunità giuste. Specializzata in Trade Show Intelligence e Strategic Partnerships nel mondo HoReCa e spirits.">
+  <meta name="keywords" content="business connector, trade show intelligence, strategic partnerships, HoReCa, fiere, business development, Irene Martellato">
+  <meta name="author" content="Irene Martellato">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.theirenemartellato.it/">
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.theirenemartellato.it/">
+  <meta property="og:title" content="Irene Martellato — Business Connector">
+  <meta property="og:description" content="I fix broken circuits. Ripristino e creo flussi di business tra prodotti, persone e mercati.">
+  <meta property="og:image" content="https://www.theirenemartellato.it/og-image.jpg">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="en_GB">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Irene Martellato — Business Connector">
+  <meta name="twitter:description" content="I fix broken circuits. Trade Show Intelligence. Strategic Partnerships.">
+  
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="it" href="https://www.theirenemartellato.it/">
+  <link rel="alternate" hreflang="en" href="https://www.theirenemartellato.it/en/">
+  <link rel="alternate" hreflang="x-default" href="https://www.theirenemartellato.it/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Syncopate:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Irene Martellato",
+    "url": "https://www.theirenemartellato.it",
+    "jobTitle": "Business Connector & Trade Show Intelligence Specialist",
+    "description": "Specializzata in business development, strategic partnerships e trade show intelligence nel settore HoReCa e spirits.",
+    "sameAs": [
+      "https://www.linkedin.com/in/irenemartellato"
+    ],
+    "knowsAbout": ["Trade Show Intelligence", "Business Development", "Strategic Partnerships", "HoReCa", "Spirits Industry", "Event Management"]
+  }
+  </script>
+
+  <style>
+    /* ============================
+       CSS VARIABLES & RESET
+    ============================ */
+    :root {
+      --black: #000000;
+      --white: #ffffff;
+      --off-white: #f5f3ef;
+      --warm-gray: #d4cfc8;
+      --mid-gray: #888580;
+      --accent: #c8a96e;
+      --accent-dark: #9a7d4a;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'DM Sans', sans-serif;
+      --font-mono: 'Syncopate', sans-serif;
+      --nav-height: 80px;
+      --section-pad: 120px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: var(--font-sans);
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+      cursor: default;
+    }
+
+    ::selection {
+      background: var(--accent);
+      color: var(--black);
+    }
+
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ============================
+       LANGUAGE SWITCHER
+    ============================ */
+    .lang-switch {
+      position: fixed;
+      top: 28px;
+      right: 140px;
+      z-index: 1000;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .lang-btn {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      color: var(--mid-gray);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px 8px;
+      transition: color 0.3s;
+    }
+
+    .lang-btn.active,
+    .lang-btn:hover {
+      color: var(--white);
+    }
+
+    .lang-btn:first-child::after {
+      content: ' /';
+      color: var(--mid-gray);
+      margin-left: 8px;
+    }
+
+    /* ============================
+       NAVIGATION
+    ============================ */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--nav-height);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 60px;
+      z-index: 999;
+      transition: background 0.4s;
+    }
+
+    nav.scrolled {
+      background: rgba(0,0,0,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .nav-logo {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+
+    .nav-logo span {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 48px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--mid-gray);
+      transition: color 0.3s;
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--accent);
+      transition: width 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: var(--white);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    /* ============================
+       HERO
+    ============================ */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0 60px 100px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: 
+        radial-gradient(ellipse at 70% 40%, rgba(200, 169, 110, 0.06) 0%, transparent 60%),
+        radial-gradient(ellipse at 20% 80%, rgba(200, 169, 110, 0.04) 0%, transparent 50%);
+    }
+
+    .hero-line {
+      position: absolute;
+      top: 0;
+      right: 120px;
+      width: 1px;
+      height: 0;
+      background: linear-gradient(to bottom, transparent, var(--accent), transparent);
+      animation: lineGrow 1.8s ease forwards 0.5s;
+    }
+
+    @keyframes lineGrow {
+      to { height: 100%; }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+    }
+
+    .hero-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 40px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.3s;
+    }
+
+    .hero-name {
+      font-family: var(--font-display);
+      font-size: clamp(72px, 10vw, 140px);
+      font-weight: 300;
+      line-height: 0.9;
+      letter-spacing: -0.02em;
+      margin-bottom: 48px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.5s;
+    }
+
+    .hero-name em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-tagline {
+      font-family: var(--font-display);
+      font-size: clamp(22px, 3vw, 32px);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--warm-gray);
+      margin-bottom: 60px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.7s;
+    }
+
+    .hero-arrow {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.9s;
+    }
+
+    .hero-arrow-line {
+      width: 80px;
+      height: 1px;
+      background: var(--accent);
+      position: relative;
+    }
+
+    .hero-arrow-line::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: -3px;
+      width: 7px;
+      height: 7px;
+      border-right: 1px solid var(--accent);
+      border-top: 1px solid var(--accent);
+      transform: rotate(45deg);
+    }
+
+    .hero-arrow span {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--mid-gray);
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ============================
+       SECTION COMMONS
+    ============================ */
+    section {
+      padding: var(--section-pad) 60px;
+      position: relative;
+    }
+
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 60px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .section-label::before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(42px, 5vw, 72px);
+      font-weight: 300;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+    }
+
+    /* ============================
+       MANIFESTO / A FEW THINGS
+    ============================ */
+    #manifesto {
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .manifesto-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      margin-top: 80px;
+    }
+
+    .manifesto-intro {
+      grid-column: 1 / -1;
+    }
+
+    .manifesto-intro p {
+      font-family: var(--font-display);
+      font-size: clamp(20px, 2.5vw, 28px);
+      font-weight: 300;
+      line-height: 1.6;
+      color: var(--warm-gray);
+      max-width: 700px;
+    }
+
+    .manifesto-intro p strong {
+      color: var(--white);
+      font-weight: 500;
+    }
+
+    .manifesto-intro p em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .manifesto-principles {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-top: 20px;
+    }
+
+    .principle {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 48px 40px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.4s, background 0.4s;
+    }
+
+    .principle::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s;
+    }
+
+    .principle:hover {
+      background: rgba(200, 169, 110, 0.04);
+      border-color: rgba(200, 169, 110, 0.2);
+    }
+
+    .principle:hover::before {
+      transform: scaleX(1);
+    }
+
+    .principle-num {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      color: var(--accent);
+      margin-bottom: 24px;
+    }
+
+    .principle-title {
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 16px;
+    }
+
+    .principle-text {
+      font-size: 14px;
+      color: var(--mid-gray);
+      line-height: 1.8;
+    }
+
+    /* ============================
+       WHAT I DO
+    ============================ */
+    #what {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.01);
+    }
+
+    .what-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      margin-top: 80px;
+      align-items: start;
+    }
+
+    .what-text p {
+      font-family: var(--font-display);
+      font-size: clamp(18px, 2vw, 24px);
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--warm-gray);
+      margin-bottom: 24px;
+    }
+
+    .what-text p strong {
+      color: var(--white);
+      font-weight: 500;
+    }
+
+    .what-for {
+      border-left: 1px solid rgba(200, 169, 110, 0.3);
+      padding-left: 40px;
+    }
+
+    .what-for-title {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 32px;
+    }
+
+    .what-for-item {
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--warm-gray);
+      transition: color 0.3s, padding-left 0.3s;
+      cursor: default;
+    }
+
+    .what-for-item:hover {
+      color: var(--white);
+      padding-left: 12px;
+    }
+
+    /* ============================
+       CASE HISTORY / IMPACT
+    ============================ */
+    #cases {
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .cases-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 80px;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+
+    .case-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 48px 40px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.4s, transform 0.4s;
+      cursor: pointer;
+    }
+
+    .case-card::after {
+      content: '→';
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      font-size: 20px;
+      color: var(--accent);
+      opacity: 0;
+      transform: translateX(-10px);
+      transition: opacity 0.3s, transform 0.3s;
+    }
+
+    .case-card:hover {
+      border-color: rgba(200, 169, 110, 0.3);
+      transform: translateY(-4px);
+    }
+
+    .case-card:hover::after {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .case-card.coming-soon {
+      opacity: 0.5;
+      cursor: default;
+    }
+
+    .case-card.coming-soon:hover {
+      transform: none;
+      border-color: rgba(255,255,255,0.06);
+    }
+
+    .case-tag {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 24px;
+      display: inline-block;
+      border: 1px solid rgba(200,169,110,0.3);
+      padding: 4px 12px;
+    }
+
+    .case-event {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+
+    .case-location {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      color: var(--mid-gray);
+      margin-bottom: 24px;
+    }
+
+    .case-excerpt {
+      font-size: 14px;
+      color: var(--mid-gray);
+      line-height: 1.8;
+    }
+
+    .coming-badge {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      background: rgba(200,169,110,0.1);
+      border: 1px solid rgba(200,169,110,0.2);
+      color: var(--accent);
+      padding: 4px 10px;
+    }
+
+    /* ============================
+       TRADE SHOW INTELLIGENCE
+    ============================ */
+    #tsi {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      background: var(--off-white);
+      color: var(--black);
+    }
+
+    #tsi .section-label {
+      color: var(--accent-dark);
+    }
+
+    #tsi .section-label::before {
+      background: var(--accent-dark);
+    }
+
+    .tsi-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      margin-top: 80px;
+      align-items: start;
+    }
+
+    .tsi-intro {
+      font-family: var(--font-display);
+      font-size: clamp(20px, 2.5vw, 28px);
+      font-weight: 300;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .tsi-intro strong {
+      color: var(--black);
+      font-weight: 500;
+    }
+
+    .tsi-benchmarks {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .benchmark {
+      display: grid;
+      grid-template-columns: 60px 1fr;
+      gap: 24px;
+      padding: 32px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      align-items: start;
+      transition: padding-left 0.3s;
+    }
+
+    .benchmark:hover {
+      padding-left: 8px;
+    }
+
+    .benchmark-num {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: var(--accent-dark);
+      padding-top: 4px;
+    }
+
+    .benchmark-content h3 {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 400;
+      color: var(--black);
+      margin-bottom: 8px;
+    }
+
+    .benchmark-content p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.7;
+    }
+
+    /* Articles in TSI section */
+    .tsi-articles {
+      grid-column: 1 / -1;
+      margin-top: 60px;
+    }
+
+    .tsi-articles-title {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent-dark);
+      margin-bottom: 40px;
+    }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+
+    .article-card {
+      background: rgba(0,0,0,0.03);
+      border: 1px solid rgba(0,0,0,0.08);
+      padding: 36px 32px;
+      cursor: pointer;
+      transition: background 0.3s, border-color 0.3s;
+      position: relative;
+    }
+
+    .article-card:hover {
+      background: rgba(200,169,110,0.08);
+      border-color: rgba(154,125,74,0.3);
+    }
+
+    .article-date {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 0.2em;
+      color: var(--accent-dark);
+      margin-bottom: 16px;
+    }
+
+    .article-category {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 12px;
+    }
+
+    .article-title {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--black);
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+
+    .article-excerpt {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.7;
+    }
+
+    .article-arrow {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      color: var(--accent-dark);
+      font-size: 16px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .article-card:hover .article-arrow {
+      opacity: 1;
+    }
+
+    /* ============================
+       CONTACT / LET'S TALK
+    ============================ */
+    #contact {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(200,169,110,0.06) 0%, transparent 70%);
+    }
+
+    .contact-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .contact-title {
+      font-family: var(--font-display);
+      font-size: clamp(60px, 10vw, 130px);
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1;
+      margin-bottom: 48px;
+      letter-spacing: -0.02em;
+    }
+
+    .contact-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+
+    .contact-sub {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 300;
+      color: var(--mid-gray);
+      margin-bottom: 60px;
+    }
+
+    .contact-email {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      letter-spacing: 0.15em;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 20px 48px;
+      position: relative;
+      transition: border-color 0.4s, color 0.4s;
+      overflow: hidden;
+    }
+
+    .contact-email::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s;
+      z-index: -1;
+    }
+
+    .contact-email:hover {
+      color: var(--black);
+      border-color: var(--accent);
+    }
+
+    .contact-email:hover::before {
+      transform: scaleX(1);
+    }
+
+    .contact-linkedin {
+      display: block;
+      margin-top: 24px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      color: var(--mid-gray);
+      transition: color 0.3s;
+    }
+
+    .contact-linkedin:hover {
+      color: var(--accent);
+    }
+
+    /* ============================
+       FOOTER
+    ============================ */
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 48px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .footer-logo {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--mid-gray);
+    }
+
+    .footer-logo span {
+      color: var(--accent);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .footer-links a {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--mid-gray);
+      transition: color 0.3s;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      color: rgba(255,255,255,0.2);
+    }
+
+    /* ============================
+       BLOG / ARTICLE PAGE
+    ============================ */
+    #blog-page {
+      display: none;
+      padding-top: calc(var(--nav-height) + 80px);
+    }
+
+    .blog-list {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .blog-list-item {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 48px;
+      padding: 48px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      cursor: pointer;
+      transition: padding-left 0.3s;
+    }
+
+    .blog-list-item:hover {
+      padding-left: 12px;
+    }
+
+    .blog-list-date {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.15em;
+      color: var(--mid-gray);
+      padding-top: 6px;
+    }
+
+    .blog-list-title {
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 12px;
+      transition: color 0.3s;
+    }
+
+    .blog-list-item:hover .blog-list-title {
+      color: var(--accent);
+    }
+
+    .blog-list-excerpt {
+      font-size: 14px;
+      color: var(--mid-gray);
+      line-height: 1.8;
+    }
+
+    /* ============================
+       SINGLE ARTICLE PAGE
+    ============================ */
+    #article-page {
+      display: none;
+      padding-top: calc(var(--nav-height) + 80px);
+      max-width: 800px;
+      margin: 0 auto;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 120px;
+    }
+
+    .article-back {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      cursor: pointer;
+      margin-bottom: 60px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      transition: gap 0.3s;
+    }
+
+    .article-back:hover {
+      gap: 16px;
+    }
+
+    .article-full-tag {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 24px;
+      display: inline-block;
+      border: 1px solid rgba(200,169,110,0.3);
+      padding: 4px 12px;
+    }
+
+    .article-full-title {
+      font-family: var(--font-display);
+      font-size: clamp(36px, 5vw, 64px);
+      font-weight: 300;
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+
+    .article-full-meta {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.15em;
+      color: var(--mid-gray);
+      margin-bottom: 60px;
+      display: flex;
+      gap: 32px;
+    }
+
+    .article-full-body {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--warm-gray);
+    }
+
+    .article-full-body h2 {
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-weight: 400;
+      color: var(--white);
+      margin: 60px 0 24px;
+    }
+
+    .article-full-body h3 {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 40px 0 16px;
+    }
+
+    .article-full-body p {
+      margin-bottom: 24px;
+    }
+
+    .article-full-body strong {
+      color: var(--white);
+      font-weight: 500;
+    }
+
+    .article-full-body ul {
+      margin: 24px 0 24px 0;
+      list-style: none;
+    }
+
+    .article-full-body ul li {
+      padding: 12px 0 12px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      position: relative;
+    }
+
+    .article-full-body ul li::before {
+      content: '↠';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    /* ============================
+       SCROLL ANIMATIONS
+    ============================ */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+
+    /* ============================
+       RESPONSIVE
+    ============================ */
+    @media (max-width: 900px) {
+      nav { padding: 0 30px; }
+      #hero { padding: 0 30px 80px; }
+      section { padding: 80px 30px; }
+      footer { padding: 40px 30px; }
+
+      .manifesto-principles,
+      .cases-grid,
+      .articles-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .manifesto-grid,
+      .what-grid,
+      .tsi-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .nav-links { display: none; }
+      .lang-switch { right: 80px; }
+
+      .blog-list-item {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      #article-page {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- LANGUAGE SWITCHER -->
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="setLang('it')" id="btn-it">IT</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-logo">Irene <span>Martellato</span></div>
+    <ul class="nav-links">
+      <li><a href="#manifesto" data-i18n="nav-manifesto">Manifesto</a></li>
+      <li><a href="#cases" data-i18n="nav-cases">Case History</a></li>
+      <li><a href="#tsi" data-i18n="nav-tsi">TSI</a></li>
+      <li><a href="#" onclick="showPage('about')" data-i18n="nav-about">About</a></li>
+      <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN SITE -->
+  <div id="main-site">
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-line"></div>
+      <div class="hero-content">
+        <div class="hero-label" data-i18n="hero-label">Business Connector · Trade Show Intelligence</div>
+        <h1 class="hero-name">Irene<br><em>Martellato</em></h1>
+        <p class="hero-tagline" data-i18n="hero-tagline">I fix broken circuits.</p>
+        <div class="hero-arrow">
+          <div class="hero-arrow-line"></div>
+          <span data-i18n="hero-scroll">Scroll</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section id="manifesto">
+      <div class="section-label" data-i18n="manifesto-label">Manifesto</div>
+      <h2 class="section-title reveal" data-i18n="manifesto-title">A few things<br><em style="font-style:italic; color: var(--accent)">up front.</em></h2>
+      <div class="manifesto-grid">
+        <div class="manifesto-intro reveal">
+          <p data-i18n="manifesto-intro"></p>
+        </div>
+        <div class="manifesto-principles">
+          <div class="principle reveal reveal-delay-1">
+            <div class="principle-num">01</div>
+            <h3 class="principle-title" data-i18n="p1-title">Read the room.</h3>
+            <p class="principle-text" data-i18n="p1-text">I mercati parlano sempre. Il problema è che la maggior parte delle persone non sa ascoltarli.</p>
+          </div>
+          <div class="principle reveal reveal-delay-2">
+            <div class="principle-num">02</div>
+            <h3 class="principle-title" data-i18n="p2-title">Connect the dots.</h3>
+            <p class="principle-text" data-i18n="p2-text">Il prodotto giusto e le persone giuste raramente si trovano nella stessa stanza per caso.</p>
+          </div>
+          <div class="principle reveal reveal-delay-3">
+            <div class="principle-num">03</div>
+            <h3 class="principle-title" data-i18n="p3-title">Close the gap.</h3>
+            <p class="principle-text" data-i18n="p3-text">I gap di mercato sono opportunità. I bisogni non presidiati sono fatturato che aspetta di succedere.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I DO -->
+    <section id="what">
+      <div class="section-label" data-i18n="what-label">What I do</div>
+      <div class="what-grid">
+        <div class="what-text reveal">
+          <p data-i18n="what-p1"></p>
+          <p data-i18n="what-p2"></p>
+        </div>
+        <div class="what-for reveal reveal-delay-1">
+          <div class="what-for-title" data-i18n="what-for-title">Per chi</div>
+          <div class="what-for-item" data-i18n="wf1">Aziende consolidate che hanno perso momentum</div>
+          <div class="what-for-item" data-i18n="wf2">Realtà nuove che non hanno ancora trovato il loro mercato</div>
+          <div class="what-for-item" data-i18n="wf3">Chiunque abbia bisogno di qualcuno che capisca sia il prodotto che le persone</div>
+          <div class="what-for-item" data-i18n="wf4">Settori HoReCa, spirits, agroalimentare, fiere</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE HISTORY / IMPACT -->
+    <section id="cases">
+      <div class="cases-header">
+        <div>
+          <div class="section-label" data-i18n="cases-label">Impact</div>
+          <h2 class="section-title reveal" data-i18n="cases-title">Case<br><em style="font-style:italic; color:var(--accent)">History.</em></h2>
+        </div>
+        <div class="reveal" style="text-align:right">
+          <p style="font-family:var(--font-display); font-size:18px; color:var(--mid-gray); max-width:320px;" data-i18n="cases-sub">Analisi concrete. Fiere reali. Opportunità identificate sul campo.</p>
+        </div>
+      </div>
+      <div class="cases-grid" id="cases-grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- TRADE SHOW INTELLIGENCE -->
+    <section id="tsi">
+      <div class="section-label" data-i18n="tsi-label">Rubrica</div>
+      <h2 class="section-title reveal" style="color:var(--black)">Trade Show<br><em style="font-style:italic; color:var(--accent-dark)">Intelligence.</em></h2>
+      <div class="tsi-grid">
+        <div class="tsi-intro reveal">
+          <p data-i18n="tsi-intro"></p>
+        </div>
+        <div class="tsi-benchmarks reveal reveal-delay-1">
+          <div class="benchmark">
+            <div class="benchmark-num">01</div>
+            <div class="benchmark-content">
+              <h3 data-i18n="b1-title">Flusso di persone</h3>
+              <p data-i18n="b1-text">Dove si concentra il traffico reale. Quando, come, perché.</p>
+            </div>
+          </div>
+          <div class="benchmark">
+            <div class="benchmark-num">02</div>
+            <div class="benchmark-content">
+              <h3 data-i18n="b2-title">Necessità non coperte</h3>
+              <p data-i18n="b2-text">Quali segmenti non sono presidiati. Dove c'è domanda senza offerta.</p>
+            </div>
+          </div>
+          <div class="benchmark">
+            <div class="benchmark-num">03</div>
+            <div class="benchmark-content">
+              <h3 data-i18n="b3-title">Player fuori contesto</h3>
+              <p data-i18n="b3-text">Chi è presente ma non appartiene. Segnale di mercato in evoluzione.</p>
+            </div>
+          </div>
+        </div>
+        <div class="tsi-articles reveal">
+          <div class="tsi-articles-title" data-i18n="tsi-articles-title">Ultimi articoli TSI</div>
+          <div class="articles-grid" id="articles-grid">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-bg"></div>
+      <div class="contact-content reveal">
+        <h2 class="contact-title">Let's <em>talk.</em></h2>
+        <p class="contact-sub" data-i18n="contact-sub">Hai un progetto, un'idea, una fiera in arrivo.</p>
+        <a href="mailto:hello@theirenemartellato.it" class="contact-email">hello@theirenemartellato.it</a>
+        <a href="https://linkedin.com/in/irenemartellato" target="_blank" class="contact-linkedin" data-i18n="contact-linkedin">→ LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-logo">Irene <span>Martellato</span></div>
+      <ul class="footer-links">
+        <li><a href="#manifesto" data-i18n="nav-manifesto">Manifesto</a></li>
+        <li><a href="#cases">Case History</a></li>
+        <li><a href="#tsi">TSI</a></li>
+        <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+      </ul>
+      <div class="footer-copy">© 2026 Irene Martellato</div>
+    </footer>
+
+  </div><!-- end main-site -->
+
+  <!-- BLOG LIST PAGE -->
+  <div id="blog-page">
+    <section style="padding-top: calc(var(--nav-height) + 60px)">
+      <div class="section-label" onclick="showPage('home')" style="cursor:pointer">← Back</div>
+      <h1 class="section-title" style="margin-bottom:80px" data-i18n="blog-title">Trade Show<br><em style="font-style:italic; color:var(--accent)">Intelligence.</em></h1>
+      <div class="blog-list" id="blog-list">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+  </div>
+
+  <!-- SINGLE ARTICLE PAGE -->
+  <div id="article-page">
+    <div class="article-back" onclick="showPage('blog')">← <span data-i18n="back-to-blog">Torna agli articoli</span></div>
+    <div id="article-content"></div>
+  </div>
+
+  <!-- ============================
+       CONTENT DATABASE (JSON)
+       Per aggiornare: modifica articles.js
+  ============================ -->
+  <script src="articles.js"></script>
+
+  <script>
+    /* ============================
+       TRANSLATIONS
+    ============================ */
+    const translations = {
+      it: {
+        'nav-manifesto': 'Manifesto',
+        'nav-cases': 'Case History',
+        'nav-tsi': 'TSI',
+        'nav-about': 'About',
+        'nav-contact': 'Contatti',
+        'hero-label': 'Business Connector · Trade Show Intelligence',
+        'hero-tagline': 'I fix broken circuits.',
+        'hero-scroll': 'Scorri',
+        'manifesto-label': 'Manifesto',
+        'manifesto-title': 'A few things up front.',
+        'manifesto-intro': '<strong>Non l\'ho imparato dai libri.</strong> Sono cresciuta dietro il bancone di un negozio. So cosa vuol dire vedere la cassa vuota. <em>Ho passato anni a fare in modo che non succedesse più.</em>',
+        'p1-title': 'Read the room.',
+        'p1-text': 'I mercati parlano sempre. Il problema è che la maggior parte delle persone non sa ascoltarli.',
+        'p2-title': 'Connect the dots.',
+        'p2-text': 'Il prodotto giusto e le persone giuste raramente si trovano nella stessa stanza per caso.',
+        'p3-title': 'Close the gap.',
+        'p3-text': 'I gap di mercato sono opportunità. I bisogni non presidiati sono fatturato che aspetta di accadere.',
+        'what-label': 'Cosa faccio',
+        'what-p1': '<strong>Ripristino e creo flussi di business.</strong> Connetto prodotti con le persone giuste, aziende con i partner giusti, mercati con le opportunità giuste.',
+        'what-p2': 'Sono come un antiossido in un circuito elettrico: individuo dove il flusso si è interrotto e lo ripristino. O creo nuovi flussi dove non ne esistevano.',
+        'what-for-title': 'Per chi',
+        'wf1': 'Aziende consolidate che hanno perso momentum',
+        'wf2': 'Realtà nuove che non hanno ancora trovato il loro mercato',
+        'wf3': 'Chiunque abbia bisogno di qualcuno che capisca sia il prodotto che le persone',
+        'wf4': 'Settori HoReCa, spirits, agroalimentare, fiere',
+        'cases-label': 'Impact',
+        'cases-title': 'Case History.',
+        'cases-sub': 'Analisi concrete. Fiere reali. Opportunità identificate sul campo.',
+        'tsi-label': 'Rubrica',
+        'tsi-intro': 'Le fiere non sono solo vetrine. Sono <strong>mercati compressi in tre giorni.</strong> Chi sa leggerle vede dove si concentra il traffico reale, quali segmenti non sono presidiati, dove c\'è domanda senza offerta.',
+        'b1-title': 'Flusso di persone',
+        'b1-text': 'Dove si concentra il traffico reale. Quando, come, perché.',
+        'b2-title': 'Necessità non coperte',
+        'b2-text': 'Quali segmenti non sono presidiati. Dove c\'è domanda senza offerta.',
+        'b3-title': 'Player fuori contesto',
+        'b3-text': 'Chi è presente ma non appartiene. Segnale di mercato in evoluzione.',
+        'tsi-articles-title': 'Ultimi articoli TSI',
+        'contact-sub': 'Hai un progetto, un\'idea, una fiera in arrivo.',
+        'contact-linkedin': '→ Seguimi su LinkedIn',
+        'blog-title': 'Trade Show Intelligence.',
+        'back-to-blog': 'Torna agli articoli',
+      },
+      en: {
+        'nav-manifesto': 'Manifesto',
+        'nav-cases': 'Case History',
+        'nav-tsi': 'TSI',
+        'nav-about': 'About',
+        'nav-contact': 'Contact',
+        'hero-label': 'Business Connector · Trade Show Intelligence',
+        'hero-tagline': 'I fix broken circuits.',
+        'hero-scroll': 'Scroll',
+        'manifesto-label': 'Manifesto',
+        'manifesto-title': 'A few things up front.',
+        'manifesto-intro': '<strong>I didn\'t learn this from textbooks.</strong> I grew up behind a shop counter. I know what an empty cash register looks like. <em>I\'ve spent years making sure it doesn\'t stay that way.</em>',
+        'p1-title': 'Read the room.',
+        'p1-text': 'Markets always speak. The problem is most people don\'t know how to listen.',
+        'p2-title': 'Connect the dots.',
+        'p2-text': 'The right product and the right people are rarely in the same room by accident.',
+        'p3-title': 'Close the gap.',
+        'p3-text': 'Market gaps are opportunities. Unmet needs are revenue waiting to happen.',
+        'what-label': 'What I do',
+        'what-p1': '<strong>I restore and create business flows.</strong> I connect products with the right people, companies with the right partners, markets with the right opportunities.',
+        'what-p2': 'Think of me as an antioxidant in an electrical circuit: I find where the flow has broken and restore it. Or I create new flows where none existed.',
+        'what-for-title': 'For whom',
+        'wf1': 'Established businesses that have lost momentum',
+        'wf2': 'New ventures that haven\'t found their market yet',
+        'wf3': 'Anyone who needs someone who understands both the product and the people who should buy it',
+        'wf4': 'HoReCa, spirits, food & beverage, trade shows',
+        'cases-label': 'Impact',
+        'cases-title': 'Case History.',
+        'cases-sub': 'Concrete analysis. Real trade shows. Opportunities identified in the field.',
+        'tsi-label': 'Column',
+        'tsi-intro': 'Trade shows are not just showcases. They are <strong>markets compressed into three days.</strong> Those who know how to read them see where real traffic concentrates, which segments are not covered, where there is demand without supply.',
+        'b1-title': 'People flow',
+        'b1-text': 'Where real traffic concentrates. When, how, why.',
+        'b2-title': 'Uncovered needs',
+        'b2-text': 'Which segments are unprotected. Where there is demand without supply.',
+        'b3-title': 'Out-of-context players',
+        'b3-text': 'Who is present but doesn\'t belong. A signal of an evolving market.',
+        'tsi-articles-title': 'Latest TSI articles',
+        'contact-sub': 'You have a project, an idea, a trade show coming up.',
+        'contact-linkedin': '→ Follow me on LinkedIn',
+        'blog-title': 'Trade Show Intelligence.',
+        'back-to-blog': 'Back to articles',
+      }
+    };
+
+    let currentLang = 'it';
+
+    function setLang(lang) {
+      currentLang = lang;
+      document.getElementById('btn-it').classList.toggle('active', lang === 'it');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.documentElement.lang = lang;
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+
+      // Re-render dynamic content
+      renderCases();
+      renderArticles();
+      renderBlogList();
+    }
+
+    /* ============================
+       NAVIGATION
+    ============================ */
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    /* ============================
+       PAGE ROUTING
+    ============================ */
+    function showPage(page) {
+      document.getElementById('main-site').style.display = 'none';
+      document.getElementById('blog-page').style.display = 'none';
+      document.getElementById('article-page').style.display = 'none';
+
+      if (page === 'home') {
+        document.getElementById('main-site').style.display = 'block';
+      } else if (page === 'blog') {
+        document.getElementById('blog-page').style.display = 'block';
+        renderBlogList();
+        window.scrollTo(0, 0);
+      } else if (page === 'about') {
+        // Placeholder - to be completed
+        document.getElementById('main-site').style.display = 'block';
+        setTimeout(() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }), 100);
+      }
+    }
+
+    function showArticle(id) {
+      const article = ARTICLES.find(a => a.id === id);
+      if (!article) return;
+
+      document.getElementById('main-site').style.display = 'none';
+      document.getElementById('blog-page').style.display = 'none';
+      document.getElementById('article-page').style.display = 'block';
+
+      const lang = currentLang;
+      const content = article.content[lang] || article.content['it'];
+      const title = article.title[lang] || article.title['it'];
+      const excerpt = article.excerpt[lang] || article.excerpt['it'];
+
+      document.getElementById('article-content').innerHTML = `
+        <span class="article-full-tag">${article.category}</span>
+        <h1 class="article-full-title">${title}</h1>
+        <div class="article-full-meta">
+          <span>${article.date}</span>
+          <span>${article.event}</span>
+          <span>${article.location}</span>
+        </div>
+        <div class="article-full-body">${content}</div>
+      `;
+      window.scrollTo(0, 0);
+    }
+
+    /* ============================
+       RENDER CASE HISTORY
+    ============================ */
+    function renderCases() {
+      const grid = document.getElementById('cases-grid');
+      if (!grid) return;
+      const lang = currentLang;
+
+      const published = ARTICLES.filter(a => a.type === 'case');
+      const coming = CASE_COMING_SOON;
+
+      let html = '';
+
+      published.forEach(a => {
+        const title = a.title[lang] || a.title['it'];
+        const excerpt = a.excerpt[lang] || a.excerpt['it'];
+        html += `
+          <div class="case-card reveal" onclick="showArticle('${a.id}')">
+            <span class="case-tag">${a.category}</span>
+            <div class="case-event">${a.event}</div>
+            <div class="case-location">${a.location} · ${a.date}</div>
+            <p class="case-excerpt">${excerpt}</p>
+          </div>`;
+      });
+
+      coming.forEach(c => {
+        const label = lang === 'en' ? 'Coming soon' : 'In arrivo';
+        html += `
+          <div class="case-card coming-soon">
+            <span class="coming-badge">${label}</span>
+            <span class="case-tag">${c.category}</span>
+            <div class="case-event">${c.event}</div>
+            <div class="case-location">${c.location} · ${c.date}</div>
+            <p class="case-excerpt">${lang === 'en' ? c.excerpt_en : c.excerpt_it}</p>
+          </div>`;
+      });
+
+      grid.innerHTML = html;
+      observeReveal();
+    }
+
+    /* ============================
+       RENDER TSI ARTICLES
+    ============================ */
+    function renderArticles() {
+      const grid = document.getElementById('articles-grid');
+      if (!grid) return;
+      const lang = currentLang;
+
+      const tsi = ARTICLES.filter(a => a.type === 'tsi').slice(0, 3);
+
+      if (tsi.length === 0) {
+        const label = lang === 'en' ? 'First article coming soon — Identità Golose, Milan June 2026' : 'Primo articolo in arrivo — Identità Golose, Milano Giugno 2026';
+        grid.innerHTML = `<div class="article-card coming-soon" style="grid-column:1/-1; opacity:0.5; cursor:default">
+          <div class="article-date">2026</div>
+          <div class="article-title" style="font-family:var(--font-display); font-size:20px; color:#333">${label}</div>
+        </div>`;
+        return;
+      }
+
+      grid.innerHTML = tsi.map(a => {
+        const title = a.title[lang] || a.title['it'];
+        const excerpt = a.excerpt[lang] || a.excerpt['it'];
+        return `
+          <div class="article-card" onclick="showArticle('${a.id}')">
+            <div class="article-date">${a.date}</div>
+            <div class="article-category">${a.category}</div>
+            <div class="article-title">${title}</div>
+            <p class="article-excerpt">${excerpt}</p>
+            <div class="article-arrow">→</div>
+          </div>`;
+      }).join('');
+    }
+
+    /* ============================
+       RENDER BLOG LIST
+    ============================ */
+    function renderBlogList() {
+      const list = document.getElementById('blog-list');
+      if (!list) return;
+      const lang = currentLang;
+
+      if (ARTICLES.length === 0) {
+        const msg = lang === 'en' ? 'First article coming soon.' : 'Primo articolo in arrivo.';
+        list.innerHTML = `<p style="font-family:var(--font-display); font-size:24px; color:var(--mid-gray)">${msg}</p>`;
+        return;
+      }
+
+      list.innerHTML = ARTICLES.map(a => {
+        const title = a.title[lang] || a.title['it'];
+        const excerpt = a.excerpt[lang] || a.excerpt['it'];
+        return `
+          <div class="blog-list-item" onclick="showArticle('${a.id}')">
+            <div class="blog-list-date">${a.date}<br><span style="color:var(--accent); font-size:8px">${a.category}</span></div>
+            <div>
+              <div class="blog-list-title">${title}</div>
+              <p class="blog-list-excerpt">${excerpt}</p>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    /* ============================
+       SCROLL REVEAL
+    ============================ */
+    function observeReveal() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    }
+
+    /* ============================
+       INIT
+    ============================ */
+    document.addEventListener('DOMContentLoaded', () => {
+      setLang('it');
+      observeReveal();
+    });
+  </script>
+</body>
+</html>
